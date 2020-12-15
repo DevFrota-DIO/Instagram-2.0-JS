@@ -1,0 +1,440 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+    
+    body {
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgb(243, 243, 243);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #_primeira {
+        z-index: 0;
+    }
+    
+    html,
+    body,
+    #_primeira {
+        height: 100%;
+    }
+    
+    ._section {
+        width: auto;
+        height: auto;
+    }
+    
+    ._main {
+        width: auto;
+        height: auto;
+    }
+    
+    ._article {
+        width: auto;
+        height: auto;
+    }
+    
+    ._etiquetaClone {
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2000;
+    }
+    
+    .instagram-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 80vh;
+    }
+    
+    .instagram-phone {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    
+    .instagram-phone img {
+        height: 46rem;
+        min-width: 33rem;
+        margin-right: 2rem;
+    }
+    
+    .instagram-continue {
+        color: #262626;
+        justify-content: center;
+        margin-top: 12px;
+        max-width: 350px
+    }
+    
+    .group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        background-color: #ffffff;
+        width: 100%;
+        padding: 1.3rem 0;
+        border: 1px solid lightgray;
+        margin-top: inherit;
+    }
+    
+    .group:nth-child(1) {
+        min-height: 19rem;
+    }
+    
+    .instagram-logo {
+        height: 3rem;
+        margin: 0 2rem 0.5rem 2rem;
+    }
+    
+    .profile-photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    .profile-photo img {
+        height: 6rem;
+    }
+    
+    .instagram-login {
+        background-color: #0095f6;
+        font-style: #000;
+        padding: 8px;
+        border-radius: 4px;
+    }
+    
+    .instagram-logout {
+        color: #0095f6;
+        margin-top: 1rem;
+    }
+    
+    .formLogin {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    
+    ._input {
+        background-color: #c0e4fc;
+        min-height: 50px;
+        text-align: left;
+        padding-top: 20px;
+        border: solid 1px #dfe0e0;
+    }
+    
+    ._classUser {
+        align-content: center;
+        background: #c2effc;
+        border: 1px solid #dbdbdb;
+        border-radius: 3px;
+        color: #262626;
+        font-size: 14px;
+        position: relative;
+        width: 80%;
+        margin-block: 10px;
+    }
+    
+    ._labelLogin {
+        text-align: center;
+        display: grid;
+        height: 36px;
+        padding: 0;
+        position: relative;
+        min-width: 50px;
+    }
+    
+    ._spanUser {
+        text-align: left;
+        color: darkgray;
+        font-size: 12px;
+        height: 36px;
+        left: 8px;
+        line-height: 36px;
+        overflow: hidden;
+        pointer-events: none;
+        position: absolute;
+        right: 0;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        height: 65px;
+    }
+    
+    ._botaoMostrar {
+        height: 20px;
+        margin-bottom: -10px;
+    }
+    
+    ._botao {
+        cursor: pointer;
+        font-weight: 600;
+        text-align: center;
+        text-transform: inherit;
+        text-overflow: ellipsis;
+        width: auto;
+        position: relative;
+        background-color: transparent;
+        border: 1px solid #dbdbdb;
+        color: #262626;
+        height: 250%;
+        float: right;
+        margin-top: -14%;
+        background-color: aliceblue;
+    }
+    
+    ._outroBotao {
+        position: relative;
+        width: 80%;
+        margin: 8px 0px 8px 0px;
+        text-align: -webkit-center;
+        height: 20px;
+    }
+    
+    ._divOu {
+        position: relative;
+        width: 80%;
+        margin: 20px 0px 8px 0px;
+        text-align: -webkit-center;
+        height: 20px;
+        display: flex;
+    }
+    
+    ._botaoEntrar {
+        border: 1px solid transparent;
+        background-color: #0095f6;
+        border-radius: 4px;
+        color: #fff;
+        position: relative;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: block;
+        font-weight: 600;
+        padding: 5px 9px;
+        text-align: center;
+        width: 100%;
+        height: 30px;
+    }
+    
+    ._traco {
+        -webkit-box-flex: 1;
+        flex-grow: 1;
+        flex-shrink: 1;
+        background-color: #dbdbdb;
+        height: 1px;
+        position: relative;
+        top: .45em;
+    }
+    
+    ._ou {
+        background-color: #fff;
+        color: #8e8e8e;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        flex-shrink: 0;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 15px;
+        margin: 0 18px;
+        text-transform: uppercase;
+    }
+    
+    ._iconFace {
+        display: inline-block;
+        margin-right: 8px;
+        position: relative;
+        top: 3px;
+        background-repeat: round;
+        height: 16px;
+        width: 16px;
+        background-image: url('./img/face.png')
+    }
+    
+    ._botaoFace {
+        color: #385185;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        flex: auto;
+    }
+    
+    ._esqueceu {
+        width: 80%;
+        color: #00376b;
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 12px;
+        text-align: center;
+        font: inherit;
+        flex: auto;
+    }
+    
+    .not-account {
+        color: rgb(160, 160, 160);
+    }
+    
+    .not-account a {
+        color: rgb(54, 136, 230);
+    }
+    
+    .link-blue {
+        color: #0095f6;
+    }
+    
+    .get-the-app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 1.3rem 0;
+    }
+    
+    .download {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    .app-download {
+        height: 3rem;
+        width: 10rem;
+        background-size: cover;
+    }
+    
+    .app-download:nth-child(1) {
+        background-image: url('./img/apple-button.png');
+        margin-right: 10px;
+    }
+    
+    .app-download:nth-child(2) {
+        background-image: url('./img/googleplay-button.png');
+    }
+    
+    .terceira {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: auto;
+        text-align: center;
+        box-align: center;
+    }
+    
+    .idioma {
+        margin-right: 2.5px;
+    }
+    
+    .copyright {
+        margin-left: 2.5px;
+    }
+    
+    .segunda {
+        display: inline-block;
+        padding: 5px;
+        margin: 20px 20px auto 20px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    ._blocosFooter {
+        display: inline-block;
+        padding: 5px;
+        margin: 0px;
+        font-size: 11px;
+    }
+    
+     :any-link {
+        color: #8e8e8e;
+        line-height: 34px;
+    }
+    
+    ._nav {
+        width: auto;
+        display: block;
+    }
+    
+    ._footer {
+        display: inline-block;
+        text-align: center;
+        width: 90%;
+        bottom: 30px;
+        height: auto;
+        position: relative;
+        padding: 16px 16px;
+        margin: 2.5% 0 2.5% 0;
+        font-size: 2vw;
+        width: -webkit-fill-available;
+    }
+    /* media queries */
+    
+    @media (max-width: 450px) {
+        ._article {
+            margin-top: 0;
+            text-align: -webkit-center;
+        }
+        ._etiquetaClone img {
+            width: 8rem;
+        }
+        ._etiquetaClone {
+            width: 8rem;
+        }
+    }
+    
+    @media (max-width: 1024px) {
+        .instagram-wrapper {
+            width: 100%;
+            height: 80vh;
+        }
+        ._etiquetaClone img {
+            width: 8rem;
+        }
+        ._etiquetaClone {
+            width: 8rem;
+        }
+    }
+    
+    @media (max-width: 650px) {
+        body {
+            background-color: #ffffff;
+        }
+        .instagram-wrapper {
+            width: 100%;
+            height: 100vh;
+        }
+        .instagram-phone {
+            display: none;
+        }
+        .instagram-continue {
+            width: 100%;
+        }
+        .group {
+            border: 1px solid transparent;
+        }
+        ._botao {
+            margin-top: -13%;
+        }
+        ._etiquetaClone img {
+            width: 8rem;
+        }
+        ._etiquetaClone {
+            width: 8rem;
+        }
+    }
