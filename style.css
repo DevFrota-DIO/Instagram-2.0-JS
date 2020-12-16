@@ -132,36 +132,39 @@
     }
     
     ._primInput {
-        background-color: #c7e8fe;
+        background-color: #e8f0fe;
         min-height: 50px;
         width: -webkit-fill-available;
         text-align: left;
         padding-top: 20px;
         padding-left: 10px;
-        border: solid 1px #aae9e9
+        border: solid 1px #cec7c7
     }
     
     ._input {
-        background-color: #c7e8fe;
         min-height: 50px;
         width: -webkit-fill-available;
         text-align: left;
         padding-top: 20px;
         padding-left: 10px;
-        border: solid 1px #aae9e9
+        border: solid 1px #cec7c7;
+        background: #e8f0fe;
     }
     
-    .lnr-eye {
-        position: absolute;
-        top: 5px;
-        right: 10px;
-        cursor: pointer;
+    ._inputSenha {
+        background-color: #e8f0fe;
+        min-height: 50px;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 7px;
+        border: solid 1px #dfe0e0;
     }
+    
+    #_pass {}
     
     ._classUser {
         align-content: center;
         background: #c2effc;
-        border: 1px solid #dbdbdb;
         border-radius: 3px;
         color: #262626;
         font-size: 14px;
@@ -170,7 +173,7 @@
         margin-block: 10px;
     }
     
-    ._classLogin {
+    ._classSenha {
         align-content: center;
         background: #c2effc;
         border: 1px solid #dbdbdb;
@@ -191,7 +194,7 @@
         min-width: 50px;
     }
     
-    ._labelPass {
+    ._labelSenha {
         text-align: center;
         display: grid;
         height: 100%;
@@ -206,15 +209,16 @@
         font-size: 12px;
         left: 8px;
         line-height: 36px;
-        overflow: hidden;
         pointer-events: none;
         position: absolute;
+        right: 0;
+        height: -webkit-fill-available;
     }
     
     ._botaoMostrar {
-        position: absolute;
         top: 0;
         right: 0;
+        position: absolute;
         height: 100%;
     }
     
@@ -222,10 +226,11 @@
         cursor: pointer;
         font-weight: 600;
         text-align: center;
-        width: 140%;
+        width: 145%;
         position: relative;
         border: 1px solid #dbdbdb;
-        color: #362c2c;
+        color: #262626;
+        height: 100%;
         float: right;
         background-color: aliceblue;
         height: -webkit-fill-available;
@@ -462,7 +467,7 @@
             border: 1px solid transparent;
         }
         ._botao {
-            margin-top: auto;
+            margin-top: 0;
         }
         ._etiquetaClone img {
             width: 8rem;

@@ -1,4 +1,4 @@
-<!--Clone Instagram 2.1-->
+<!--Clone Instagram 2.1 + Função JS-->
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -47,23 +47,19 @@
                                                 type="text" class="_primInput" value="Lucio Frota"></label>
 
                                     </div>
-                                    <div class="_classLogin">
-                                        <label class="_labelPass">
-                                            <span class="_spanUser">DIgite sua
-                                                Senha</span>
-                                            <input aria-label="Senha" aria-required="true" autocapitalize="off"
-                                                autocorrect="off" name="password" type="password" id="pass"
-                                                class="_input" value="Digital-Innovation-One">
-
+                                    <div class="_classSenha"><label class="_labelSenha">
+                                            <span class="_spanUser">Digite sua Senha</span><input aria-label="Senha"
+                                                aria-required="true" autocapitalize="off" autocorrect="off"
+                                                name="password" type="password" class="_inputSenha" id="pass"
+                                                value="Digital-Innovation-One">
                                         </label>
+
+
                                         <div class="_botaoMostrar ">
-                                            <button class="_botao" type="button" onclick="func()">Mostrar</button>
+                                            <!--JS no inline no evento onclick chamando a função "func"-->
+                                            <input class="_botao" id="bot" value="Mostrar" type="button" onclick="func()">
+                                            </input>
                                         </div>
-
-
-
-
-
 
                                     </div>
 
@@ -182,5 +178,6 @@
     <script type="text/javascript" src="script.js"></script>
 
 </body>
+<script type="text/javascript" src="script.js"></script>
 
 </html>
