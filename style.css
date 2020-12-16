@@ -131,15 +131,46 @@
         align-items: center;
     }
     
-    ._input {
-        background-color: #c0e4fc;
+    ._primInput {
+        background-color: #c7e8fe;
         min-height: 50px;
+        width: -webkit-fill-available;
         text-align: left;
         padding-top: 20px;
-        border: solid 1px #dfe0e0;
+        padding-left: 10px;
+        border: solid 1px #aae9e9
+    }
+    
+    ._input {
+        background-color: #c7e8fe;
+        min-height: 50px;
+        width: -webkit-fill-available;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 10px;
+        border: solid 1px #aae9e9
+    }
+    
+    .lnr-eye {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        cursor: pointer;
     }
     
     ._classUser {
+        align-content: center;
+        background: #c2effc;
+        border: 1px solid #dbdbdb;
+        border-radius: 3px;
+        color: #262626;
+        font-size: 14px;
+        position: relative;
+        width: 80%;
+        margin-block: 10px;
+    }
+    
+    ._classLogin {
         align-content: center;
         background: #c2effc;
         border: 1px solid #dbdbdb;
@@ -160,42 +191,44 @@
         min-width: 50px;
     }
     
+    ._labelPass {
+        text-align: center;
+        display: grid;
+        height: 100%;
+        padding: 0;
+        position: relative;
+        min-width: 50px;
+    }
+    
     ._spanUser {
         text-align: left;
         color: darkgray;
         font-size: 12px;
-        height: 36px;
         left: 8px;
         line-height: 36px;
         overflow: hidden;
         pointer-events: none;
         position: absolute;
-        right: 0;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        height: 65px;
     }
     
     ._botaoMostrar {
-        height: 20px;
-        margin-bottom: -10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
     }
     
     ._botao {
         cursor: pointer;
         font-weight: 600;
         text-align: center;
-        text-transform: inherit;
-        text-overflow: ellipsis;
-        width: auto;
+        width: 140%;
         position: relative;
-        background-color: transparent;
         border: 1px solid #dbdbdb;
-        color: #262626;
-        height: 250%;
+        color: #362c2c;
         float: right;
-        margin-top: -14%;
         background-color: aliceblue;
+        height: -webkit-fill-available;
     }
     
     ._outroBotao {
@@ -429,7 +462,7 @@
             border: 1px solid transparent;
         }
         ._botao {
-            margin-top: -13%;
+            margin-top: auto;
         }
         ._etiquetaClone img {
             width: 8rem;

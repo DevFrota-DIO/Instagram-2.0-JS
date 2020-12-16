@@ -1,4 +1,4 @@
-<!--Clone Instagram 2.0-->
+<!--Clone Instagram 2.1-->
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -7,7 +7,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <title>Instagram</title>
+
 </head>
 
 <body>
@@ -41,21 +44,26 @@
                                             <span class="_spanUser">Telefone, nome de usuário ou email</span>
                                             <input aria-label="Telefone, nome de usuário ou email" aria-required="true"
                                                 autocapitalize="off" autocorrect="off" maxlength="75" name="username"
-                                                type="text" class="_input" value="Lucio Frota"></label>
+                                                type="text" class="_primInput" value="Lucio Frota"></label>
 
                                     </div>
-                                    <div class="_classUser   "><label class="_labelLogin">
-                                            <span class="_spanUser">Senha</span><input aria-label="Senha"
-                                                aria-required="true" autocapitalize="off" autocorrect="off"
-                                                name="password" type="password" class="_input"
-                                                value="Digital-Innovation-One">
+                                    <div class="_classLogin">
+                                        <label class="_labelPass">
+                                            <span class="_spanUser">DIgite sua
+                                                Senha</span>
+                                            <input aria-label="Senha" aria-required="true" autocapitalize="off"
+                                                autocorrect="off" name="password" type="password" id="pass"
+                                                class="_input" value="Digital-Innovation-One">
+
                                         </label>
-
-
-
                                         <div class="_botaoMostrar ">
-                                            <button class="_botao" type="button">Mostrar</button>
+                                            <button class="_botao" type="button" onclick="func()">Mostrar</button>
                                         </div>
+
+
+
+
+
 
                                     </div>
 
@@ -171,6 +179,7 @@
             </footer>
         </section>
     </div>
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 

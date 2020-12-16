@@ -12,6 +12,10 @@
 
 #### Ainda sou iniciante nisso tudo, então peço paciência, e novamente, por favor, quem for melhorar esse código deixe o bixim bem comentado pra que todos nós possamos aprender juntos
 
+#### *****************************☺☺☺☺☺☺☺☺☺☺*****************************
+
+#### Versão com funcionalidade JS para visualizar a senha digitada
+
 .
 
 #### Valeu! Obrigado
